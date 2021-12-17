@@ -91,13 +91,13 @@
                                                         <div class="entry-text-content">
                                                             <header class="entry-header">
                                                                 <h4 class="entry-title">
-                                                                    <a href="persons.html" rel="bookmark" class="light">Personenverzeichnis</a>
+                                                                    <a href="listperson.html" rel="bookmark" class="light">Personenverzeichnis</a>
                                                                 </h4>
                                                             </header>
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>Einstieg in das Tagebuch über das Personenregister mit über 8.500 nachgewiesenen Personen und ihrem Vorkommen.</p>
-                                                                <a class="btn btn-round mb-1" href="persons.html">Mehr lesen</a>
+                                                                <a class="btn btn-round mb-1" href="listperson.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>
@@ -114,13 +114,13 @@
                                                         <div class="entry-text-content">
                                                             <header class="entry-header">
                                                                 <h4 class="entry-title">
-                                                                    <a href="places.html" rel="bookmark" class="light">Ortsverzeichnis</a>
+                                                                    <a href="listplace.html" rel="bookmark" class="light">Ortsverzeichnis</a>
                                                                 </h4>
                                                             </header>
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>Zugang zum Tagebuch mittels 2.200 Orten, die auch über ihre Koordinaten erschlossen sind.</p>
-                                                                <a class="btn btn-round mb-1" href="places.html">Mehr lesen</a>
+                                                                <a class="btn btn-round mb-1" href="listplace.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>

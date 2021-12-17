@@ -20,19 +20,19 @@
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/show.html?document=about.xml&amp;directory=meta&amp;stylesheet=meta">Zur Edition</a>
+                                <a class="nav-link" href="about.html">Zur Edition</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/calendar.html">Kalender</a>
+                                <a class="nav-link" href="calendar.html">Kalender</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/persons.html">Personen</a>
+                                <a class="nav-link" href="listperson.html">Personen</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/works.html">Werke</a>
+                                <a class="nav-link" href="listworks.html">Werke</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/places.html">Orte</a>
+                                <a class="nav-link" href=".listplace.html">Orte</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

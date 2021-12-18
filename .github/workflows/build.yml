@@ -27,7 +27,7 @@ jobs:
     - name: Build Index
       run: |
         ./build_index.sh
-    - name: Build
+    - name: Build Register
       run: |
         ant -f build_indices.xml 
     - name: Deploy

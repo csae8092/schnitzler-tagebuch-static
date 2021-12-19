@@ -143,3 +143,4 @@ desktop.ini
 .DS_Store
 data/
 schnitzler-tagebuch-data-master/
+*.ipynb

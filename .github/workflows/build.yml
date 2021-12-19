@@ -21,10 +21,14 @@ jobs:
     - name: Fetch Data
       run: |
         ./fetch_data.sh
+    - name: Denormalize Indices
+      run: |
+        pip install acdh-tei-pyutils>=0.20.0
+        schnitzler
     - name: Build
       run: |
         ant
-    - name: Build Index
+    - name: Build Fulltext Search Index
       run: |
         ./build_index.sh
     - name: Build Register

@@ -10,7 +10,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
-                    <a href="../pages/index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
                         <img src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg" class="img-fluid" alt="Schnitzler Tagebuch" itemprop="logo"/>
                     </a><!-- end custom logo -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,14 +23,14 @@
                                 <a class="nav-link" href="about.html">Zur Edition</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="calendar.html">Kalender</a>
+                                <a class="nav-link" href="toc.html">Einträge</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="listperson.html">Personen</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="listworks.html">Werke</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="listplace.html">Orte</a>
                             </li>

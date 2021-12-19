@@ -33,7 +33,10 @@ jobs:
         ./build_index.sh
     - name: Build Register
       run: |
-        ant -f build_indices.xml 
+        ant -f build_indices.xml
+    - name: copy data
+      run: |
+        cp -r ./data ./html/. 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

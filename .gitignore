@@ -144,3 +144,4 @@ desktop.ini
 data/
 schnitzler-tagebuch-data-master/
 *.ipynb
+html/calendar.json

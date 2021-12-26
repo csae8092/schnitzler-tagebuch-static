@@ -6,3 +6,5 @@ unzip master
 mv schnitzler-tagebuch-data-master ./data
 ./dl_imprint.sh
 rm master.zip
+echo "create calendar data"
+python make_calendar_data.py

@@ -14,16 +14,16 @@ jobs:
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./script.sh
-    - name: Install Ant-Contrib
+    - name: Install Ant-Contrib and Python
       run: |
         wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
         mv ant-contrib-1.0b3.jar /usr/share/ant/lib
+        pip install acdh-tei-pyutils>=0.20.0
     - name: Fetch Data
       run: |
         ./fetch_data.sh
     - name: Denormalize Indices
       run: |
-        pip install acdh-tei-pyutils>=0.20.0
         schnitzler
     - name: Build
       run: |

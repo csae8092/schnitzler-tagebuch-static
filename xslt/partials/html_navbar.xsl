@@ -23,6 +23,9 @@
                                 <a class="nav-link" href="about.html">Zur Edition</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="calendar.html">Kalender</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="toc.html">Einträge</a>
                             </li>
                             <li class="nav-item">

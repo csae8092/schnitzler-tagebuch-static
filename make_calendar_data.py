@@ -4,7 +4,7 @@ import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 files = glob.glob('./data/editions/*xml')
-out_file = "./html/calendar.json"
+out_file = "./html/calendarData.js"
 data = []
 for x in tqdm(files, total=len(files)):
     item = {}
@@ -17,5 +17,6 @@ for x in tqdm(files, total=len(files)):
 
 print(f"writing calendar data to {out_file}")
 with open(out_file, 'w',  encoding='utf8') as f:
-    json.dump(data, f, ensure_ascii=False)
+    my_js_variable = f"var calendarData = {json.dumps(data, ensure_ascii=False)}"
+    f.write(my_js_variable)
 

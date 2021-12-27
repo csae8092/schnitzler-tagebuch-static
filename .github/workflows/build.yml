@@ -28,9 +28,9 @@ jobs:
     - name: Build
       run: |
         ant
-    - name: Build Fulltext Search Index
-      run: |
-        ./build_index.sh
+    # - name: Build Fulltext Search Index
+    #   run: |
+    #     ./build_index.sh
     - name: Build Register
       run: |
         ant -f build_indices.xml

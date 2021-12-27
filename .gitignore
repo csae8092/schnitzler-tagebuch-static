@@ -145,3 +145,4 @@ data/
 schnitzler-tagebuch-data-master/
 *.ipynb
 html/calendar.json
+html/calendarData.js

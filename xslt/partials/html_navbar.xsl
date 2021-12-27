@@ -37,7 +37,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="listplace.html">Orte</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     API
                                 </a>
@@ -45,7 +45,7 @@
                                     <a class="dropdown-item" href="../api/api.html">API</a>
                                     <a class="dropdown-item" href="../analyze/beacon.xql">GND-Beacon</a>
                                 </div>
-                            </li>
+                            </li>-->
                         </ul>
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche"/>

@@ -7,6 +7,8 @@ jobs:
   build_pages:
     name: Publish Edition as GitHub Pages Website
     runs-on: ubuntu-latest
+    env:
+      ANT_OPTS: -Xmx5g
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v2
@@ -22,15 +24,12 @@ jobs:
     - name: Fetch Data
       run: |
         ./fetch_data.sh
-    - name: Denormalize Indices
-      run: |
-        schnitzler
     - name: Build
       run: |
         ant
-    # - name: Build Fulltext Search Index
-    #   run: |
-    #     ./build_index.sh
+    - name: Build Fulltext Search Index
+      run: |
+        ./build_index.sh
     - name: Build Register
       run: |
         ant -f build_indices.xml

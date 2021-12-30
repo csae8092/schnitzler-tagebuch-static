@@ -146,3 +146,7 @@ schnitzler-tagebuch-data-master/
 *.ipynb
 html/calendar.json
 html/calendarData.js
+/data
+/html/*.xml
+arche.rdf
+beacon.txt

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,17 +31,28 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Dienstag, 24. August 1915</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1915-08-23.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Dienstag, 24. August 1915</h1>
+                        <h3 align="center"><a href="entry__1915-08-24.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1915-08-25.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__20">
                      
-                     <p>24/8 Vm. Wildenstein etc.―</p>
+                     <p id="p__2">24/8 Vm. Wildenstein etc.―</p>
                      
-                     <p>Nm. mit O. und Arthur Kfm. Bahn Goisern, dann über Soolenweg zurück. 
+                     <p id="p__6">Nm. mit O. und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16770">Arthur Kfm.</a></strong> Bahn <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_07cc35c579844177c6dabfc6b99c1f3d">Goisern</a></strong>, dann über <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_e6170c0a3659a0d0c022f8fcd18a6543">Soolenweg</a></strong> zurück. 
                         Wunderbarer Abend. Auf dem Weg ein Haus alleinstehend. Blick in die Diele. 
                         Kind vor dem Tischchen, Spielzeug, Abendessen. Blasse Mutter. „Wie alt 
                         ist das Kind?“ „Heut ists ein Jahr … Sein Vater hat’s noch nicht gesehn. 
@@ -57,16 +68,98 @@
                      217
                      
                      
-                     <p>Ihr Schurken! Ihr Narren! Ihr Bösewichte!―</p>
+                     <p id="p__5">Ihr Schurken! Ihr Narren! Ihr Bösewichte!―</p>
                      
-                     <p>― Stärkster Wunsch Kaufmanns: einmal auf einen Tag ein andrer 
+                     <p id="p__8">― Stärkster Wunsch <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16770">Kaufmanns</a></strong>: einmal auf einen Tag ein andrer 
                         sein. Ich: Mir ist, als könnt ich mich in jeden andern völlig hinein 
                         denken; nur in den Dogmengläubigen nicht.―</p>
                      
-                     <p>Genachtm. Sonnenschein, wo auch Friedell, der öfters, bei all seinem 
+                     <p id="p__9">Genachtm. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#pmb40450">Sonnenschein</a></strong>, wo auch <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_15210">Friedell</a></strong>, der öfters, bei all seinem 
                         Geist durch Witzboldelei ermüdet.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_15210">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Friedell Egon <a href="person_15210.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Egon<br></br><small>Nachname</small>: Friedell<br></br><small>geboren</small>:  21. 1. 1878<br></br><small>gestorben</small>: 16. 3. 1938
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16770">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Kaufmann Arthur <a href="person_16770.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Arthur<br></br><small>Nachname</small>: Kaufmann<br></br><small>geboren</small>:  4. 4. 1872<br></br><small>gestorben</small>: 25. 7. 1938
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_07cc35c579844177c6dabfc6b99c1f3d">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Goisern <a href="place_07cc35c579844177c6dabfc6b99c1f3d.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Goisern</li>
+                           <li>Bad Goisern</li>
+                        </ul><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2782055/">http://www.geonames.org/2782055/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 47.64252 13.61609
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_e6170c0a3659a0d0c022f8fcd18a6543">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Soolenweg <a href="place_e6170c0a3659a0d0c022f8fcd18a6543.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Soolenweg</li>
+                           <li>Soleweg</li>
+                        </ul><br></br><small>Koordinaten:</small> 47.680254 13.617747
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

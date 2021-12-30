@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,15 +31,26 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Mittwoch, 13. August 1919</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1919-08-12.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Mittwoch, 13. August 1919</h1>
+                        <h3 align="center"><a href="entry__1919-08-13.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1919-08-14.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__19">
                      
-                     <p>13/8 Eng ― Lakaboden ― Bodenwiese ― Auf dem Rückweg nach Payerbach im 
+                     <p id="p__8">13/8 <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_0e9c00aa63d64803d4ed5aa295816e0b">Eng</a></strong> ― Lakaboden ― Bodenwiese ― Auf dem Rückweg nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_5884bac5272bf94a2487941d33f4ddc1">Payerbach</a></strong> im 
                         Wald gelegen ― Ergriffenheit und Thränen. Wer mir vor ― 33 
                         
                         1919: VIII 13 - VIII 16 279
@@ -47,12 +58,150 @@
                         Zeit wieder Thränen vergießen würde ― und wieder um eine Olga ― 
                         sozusagen. Doch schrieb ich auch ein paar Verse zum Weiher.―</p>
                      
-                     <p>Spazierg. mit O., Fr. Lichtenstern, Fr. Lederer gegen Hirschwang.</p>
+                     <p id="p__7">Spazierg. mit O., <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17510">Fr. Lichtenstern</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17387">Fr. Lederer</a></strong> gegen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_9ea5f4d14106b60b55dda6b6c7981877">Hirschwang</a></strong>.</p>
                      
-                     <p>― Mein Zimmer schlecht, Westen.― Der Arzt des Curhauses Dr. Wertheimer 
-                        sympathisch. Nette Kinder. Lili fühlt sich besonders wohl.</p>
+                     <p id="p__6">― Mein Zimmer schlecht, Westen.― Der Arzt des Curhauses <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_21265">Dr. Wertheimer</a></strong> 
+                        sympathisch. Nette Kinder. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14130">Lili</a></strong> fühlt sich besonders wohl.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14130">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schnitzler Lili <a href="person_14130.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Lili<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  13. 9. 1909<br></br><small>gestorben</small>: 26. 7. 1928
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17510">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Lichtenstern Vilma <a href="person_17510.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Vilma<br></br><small>Nachname</small>: Lichtenstern<br></br><small>geboren</small>:  30. 8. 1885<br></br><small>gestorben</small>: 4. 6. 1927
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_21265">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Wertheimer Wilhelm <a href="person_21265.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Wilhelm<br></br><small>Nachname</small>: Wertheimer<br></br><small>geboren</small>:  31. 7. 1866<br></br><small>gestorben</small>: 24. 8. 1924
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17387">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Lederer Erna <a href="person_17387.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Erna<br></br><small>Nachname</small>: Lederer<br></br><small>geboren</small>:  28. 6. 1884<br></br><small>gestorben</small>: 28. 1. 1981
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_0e9c00aa63d64803d4ed5aa295816e0b">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Eng <a href="place_0e9c00aa63d64803d4ed5aa295816e0b.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2780082/">http://www.geonames.org/2780082/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 47.71667 15.85
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_5884bac5272bf94a2487941d33f4ddc1">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Payerbach <a href="place_5884bac5272bf94a2487941d33f4ddc1.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2769182/">http://www.geonames.org/2769182/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 47.69209 15.8634
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_9ea5f4d14106b60b55dda6b6c7981877">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Hirschwang <a href="place_9ea5f4d14106b60b55dda6b6c7981877.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Hirschwang</li>
+                           <li>Hirschwang an der Rax</li>
+                        </ul><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2776163/">http://www.geonames.org/2776163/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 47.70526 15.81139
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

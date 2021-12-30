@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,19 +31,111 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Dienstag, 31. Juli 1888</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1888-07-30.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Dienstag, 31. Juli 1888</h1>
+                        <h3 align="center"><a href="entry__1888-07-31.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1888-08-01.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__10">
                      
-                     <p>31/7 London ― Dover. Ostende. Geza Brüll.</p>
+                     <p id="p__7">31/7 <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_59ead8d1e124ccfb79f3ace06f43e703">London</a></strong> ― <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_733c3162cbbd655898661d6b8561f8b9">Dover</a></strong>. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_92ba21707d36e25feac6284cbd79724d">Ostende</a></strong>. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14013">Geza Brüll</a></strong>.</p>
                      
-                     <p>August. Ostende.</p>
+                     <p id="p__3">August. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_92ba21707d36e25feac6284cbd79724d">Ostende</a></strong>.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14013">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Brüll Geza <a href="person_14013.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Geza<br></br><small>Nachname</small>: Brüll<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_59ead8d1e124ccfb79f3ace06f43e703">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">London <a href="place_59ead8d1e124ccfb79f3ace06f43e703.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2643743/">http://www.geonames.org/2643743/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 51.50853 -0.12574
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_733c3162cbbd655898661d6b8561f8b9">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Dover <a href="place_733c3162cbbd655898661d6b8561f8b9.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/4142290/">http://www.geonames.org/4142290/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 39.15817 -75.52437
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_92ba21707d36e25feac6284cbd79724d">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Ostende <a href="place_92ba21707d36e25feac6284cbd79724d.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2789786/">http://www.geonames.org/2789786/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 51.21551 2.927
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

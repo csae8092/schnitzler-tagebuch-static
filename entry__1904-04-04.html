@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,21 +31,110 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Montag, 4. April 1904</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1904-04-03.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Montag, 4. April 1904</h1>
+                        <h3 align="center"><a href="entry__1904-04-04.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1904-04-05.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__10">
                      
-                     <p>4/4 Ostermontag.― Vm. bei Schwarzkopf.― Panorama China.―</p>
+                     <p id="p__4">4/4 Ostermontag.― Vm. bei <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19986">Schwarzkopf</a></strong>.― Panorama <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_ae54a5c026f31ada088992587d92cb3a">China</a></strong>.―</p>
                      
-                     <p>Nm. 1. Buch (?) bis Georg schlafen geht vorläufig abgeschlossen.―</p>
+                     <p id="p__3">Nm. 1. Buch (?) bis <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19831">Georg</a></strong> schlafen geht vorläufig abgeschlossen.―</p>
                      
-                     <p>Abd. Südbahn, Mama Abreise Meran.</p>
+                     <p id="p__5">Abd. Südbahn, Mama Abreise <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_834e1bca2cb7d2238249e70860ed8ae8">Meran</a></strong>.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19831">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schnitzler Louise <a href="person_19831.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Louise<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  8. 7. 1840<br></br><small>gestorben</small>: 9. 9. 1911
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19986">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schwarzkopf Gustav <a href="person_19986.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Gustav<br></br><small>Nachname</small>: Schwarzkopf<br></br><small>geboren</small>:  7. 11. 1853<br></br><small>gestorben</small>: 13. 11. 1939
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_ae54a5c026f31ada088992587d92cb3a">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">China <a href="place_ae54a5c026f31ada088992587d92cb3a.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/1814991/">http://www.geonames.org/1814991/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 35 105
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_834e1bca2cb7d2238249e70860ed8ae8">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Meran <a href="place_834e1bca2cb7d2238249e70860ed8ae8.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3173577/">http://www.geonames.org/3173577/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 46.66817 11.15953
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,19 +31,30 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Freitag, 24. Oktober 1919</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1919-10-23.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Freitag, 24. Oktober 1919</h1>
+                        <h3 align="center"><a href="entry__1919-10-24.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1919-10-25.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__23">
                      
-                     <p>24/10 Gegen Mittag bei Frau Vilma Lichtenstern;― allgemeines und 
+                     <p id="p__4">24/10 Gegen Mittag bei Frau <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17510">Vilma Lichtenstern</a></strong>;― allgemeines und 
                         persönliches.―</p>
                      
-                     <p>O. hat in München in einer Art Privatsoiree „Kurt Wolff Palast“ ― von 
-                        Heinrich Mann arrangirt, mit Erfolg gesungen.</p>
+                     <p id="p__7">O. hat in <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_d0a6343a081a7335baa965ce4fd0845c">München</a></strong> in einer Art Privatsoiree „Kurt Wolff Palast“ ― von 
+                        <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17834">Heinrich Mann</a></strong> arrangirt, mit Erfolg gesungen.</p>
                      
                      
                      302
@@ -52,11 +63,104 @@
                      
                      
                      
-                     <p>Nm. am Weiher.―</p>
+                     <p id="p__6">Nm. am Weiher.―</p>
                      
-                     <p>Mit Heini Prometheus Ouvertüre; Serenade Dvorak.</p>
+                     <p id="p__10">Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19822">Heini</a></strong> Prometheus Ouvertüre; Serenade <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14579">Dvorak</a></strong>.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14579">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Dvořák Antonin <a href="person_14579.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Antonin<br></br><small>Nachname</small>: Dvořák<br></br><small>geboren</small>:  8. 9. 1841<br></br><small>gestorben</small>: 1. 5. 1904
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17510">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Lichtenstern Vilma <a href="person_17510.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Vilma<br></br><small>Nachname</small>: Lichtenstern<br></br><small>geboren</small>:  30. 8. 1885<br></br><small>gestorben</small>: 4. 6. 1927
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17834">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Mann Heinrich <a href="person_17834.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Heinrich<br></br><small>Nachname</small>: Mann<br></br><small>geboren</small>:  27. 3. 1871<br></br><small>gestorben</small>: 11. 3. 1950
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19822">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schnitzler Heinrich <a href="person_19822.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Heinrich<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  9. 8. 1902<br></br><small>gestorben</small>: 12. 7. 1982
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_d0a6343a081a7335baa965ce4fd0845c">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">München <a href="place_d0a6343a081a7335baa965ce4fd0845c.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2867714/">http://www.geonames.org/2867714/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 48.13743 11.57549
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,16 +31,27 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Samstag, 11. Mai 1912</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1912-05-10.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Samstag, 11. Mai 1912</h1>
+                        <h3 align="center"><a href="entry__1912-05-11.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1912-05-12.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__12">
                      
-                     <p>11/5 Ankunft Triest. Zu Schiff „Hohenlohe“ nach Pola; kleines Boot 
-                        nach Brioni.</p>
+                     <p id="p__5">11/5 Ankunft <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_8be4faaae218289562dc0a8c0e2e0ff1">Triest</a></strong>. Zu Schiff „Hohenlohe“ nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_9219ee9e1eb760ce3bd97532b5ca05e1">Pola</a></strong>; kleines Boot 
+                        nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</a></strong>.</p>
                      
                      
                      326
@@ -49,9 +60,81 @@
                      
                      
                      
-                     <p>Nm. Gang im Park.</p>
+                     <p id="p__4">Nm. Gang im Park.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_8be4faaae218289562dc0a8c0e2e0ff1">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Triest <a href="place_8be4faaae218289562dc0a8c0e2e0ff1.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Triest</li>
+                           <li>Trieste</li>
+                        </ul><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3165185/">http://www.geonames.org/3165185/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 45.64953 13.77678
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_9219ee9e1eb760ce3bd97532b5ca05e1">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Pola <a href="place_9219ee9e1eb760ce3bd97532b5ca05e1.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Pola</li>
+                           <li>Pula</li>
+                        </ul><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3192224/">http://www.geonames.org/3192224/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 44.86833 13.84806
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_8ac85cc83788186b74cc9ca468d300c5">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Brioni <a href="place_8ac85cc83788186b74cc9ca468d300c5.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Brioni</li>
+                           <li>Brijuni</li>
+                        </ul><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3203301/">http://www.geonames.org/3203301/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 44.91417 13.76222
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

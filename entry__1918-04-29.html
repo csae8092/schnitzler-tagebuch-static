@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,17 +31,28 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Montag, 29. April 1918</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1918-04-28.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Montag, 29. April 1918</h1>
+                        <h3 align="center"><a href="entry__1918-04-29.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1918-04-30.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__28">
                      
-                     <p>29/4 Dictirt Briefe; „Sohn“.―</p>
+                     <p id="p__3">29/4 Dictirt Briefe; „Sohn“.―</p>
                      
-                     <p>Nm. „Nachklang“.―</p>
+                     <p id="p__3">Nm. „Nachklang“.―</p>
                      
                      
                      136
@@ -50,17 +61,111 @@
                      
                      
                      
-                     <p>Zum Thee Gerty v. L.―</p>
+                     <p id="p__7">Zum Thee <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19227">Gerty v. L.</a></strong>―</p>
                      
-                     <p>Director Bernau (Kammerspiele, vom August an Volkstheater) ― sympathisch. 
+                     <p id="p__13"><strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13663">Director Bernau</a></strong> (Kammerspiele, vom August an <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_volkstheater">Volkstheater</a></strong>) ― sympathisch. 
                         Über „Schwestern“ „Bernhardi“ „Weites Land“ hinsichtlich Aufführung 
-                        nächstes Jahr; Festspiele, oesterr. Cyclus.―</p>
+                        nächstes Jahr; Festspiele, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_50e7fee43672ab5849a6d99f48c6ad7c">oesterr.</a></strong> Cyclus.―</p>
                      
-                     <p>Hr. Knappe (unsrer einstigen Hedwig Mann), über Stimmungen im Volk.―</p>
+                     <p id="p__10"><strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16927">Hr. Knappe</a></strong> (unsrer einstigen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16928">Hedwig</a></strong> Mann), über Stimmungen im Volk.―</p>
                      
-                     <p>Las Gil Blas zu Ende, mit viel Vergnügen.―</p>
+                     <p id="p__9">Las Gil Blas zu Ende, mit viel Vergnügen.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13663">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Bernau Alfred <a href="person_13663.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Alfred<br></br><small>Nachname</small>: Bernau<br></br><small>geboren</small>:  6. 3. 1879<br></br><small>gestorben</small>: 20. 8. 1950
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16927">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Knappe <a href="person_16927.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  <br></br><small>Nachname</small>: Knappe<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16021">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Knappe Hedwig <a href="person_16021.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Hedwig<br></br><small>Nachname</small>: Knappe<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19227">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Landesberger Gertrude Felice von <a href="person_19227.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Gertrude Felice von<br></br><small>Nachname</small>: Landesberger<br></br><small>geboren</small>:  14. 1. 1897<br></br><small>gestorben</small>: 17. 8. 1989
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_volkstheater">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Deutsches Volkstheater <a href="place_volkstheater.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Deutsches Volkstheater</li>
+                           <li>Volkstheater</li>
+                        </ul><br></br><small>Koordinaten:</small> 48.205142 16.3566
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

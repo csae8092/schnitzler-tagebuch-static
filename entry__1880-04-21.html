@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,31 +31,99 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Mittwoch, 21. April 1880</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1880-04-20.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Mittwoch, 21. April 1880</h1>
+                        <h3 align="center"><a href="entry__1880-04-21.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1880-04-22.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__11">
                      
-                     <p>21/4 Mittwoch Abend.― Josef Winter lebt leichtsinnig, melancholisch
+                     <p id="p__5">21/4 Mittwoch Abend.― <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_21375">Josef Winter</a></strong> lebt leichtsinnig, melancholisch
                         ― epikureisch, pessimistisch in den Tag hinein und ist mit allem 
                         unzufrieden (außer mit seinen Gedichten). Mit mir gehts nicht besser. 
                         Wie sollt’s auch. Eine und eins könnt alles besser machen und mich 
                         zufrieden. Aus dem engen Kreis zu treten, sehn’ ich mich, in den ich 
                         gebannt bin; meine Brust will frei athmen.</p>
                      
-                     <p>― Sprach heut wieder mit R. Kohn, der nach Heidelberg geht. Auch über 
+                     <p id="p__5">― Sprach heut wieder mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16994">R. Kohn</a></strong>, der nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_35ec7062379a5b1e1743de648e2f3809">Heidelberg</a></strong> geht. Auch über 
                         gewisse Fragen, die mich leider nicht mehr loslassen ― das ist ein 
                         ewig Gedankenverfolgen, Prämissenhinsetzen, Schlüsseziehn ― mit 
                         immer demselben verstimmenden Resultate. Wie eine Fledermaus in 
                         Dämmerung schwirrt, so kreist die Philosophie um unser Haupt in 
                         trübselig Zweifelschein.― </p>
                      
-                     <p>Herr?, möcht’ ich gern wieder eine Nacht tanzen.</p>
+                     <p id="p__3">Herr?, möcht’ ich gern wieder eine Nacht tanzen.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16994">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Kohn Richard <a href="person_16994.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Richard<br></br><small>Nachname</small>: Kohn<br></br><small>geboren</small>:  20. 6. 1862<br></br><small>gestorben</small>: 19. 10. 1897
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_21375">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Winter Josef von <a href="person_21375.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Josef von<br></br><small>Nachname</small>: Winter<br></br><small>geboren</small>:  2. 2. 1857<br></br><small>gestorben</small>: 6. 7. 1916
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_35ec7062379a5b1e1743de648e2f3809">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Heidelberg <a href="place_35ec7062379a5b1e1743de648e2f3809.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2907911/">http://www.geonames.org/2907911/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 49.40768 8.69079
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

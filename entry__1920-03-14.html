@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,33 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Sonntag, 14. März 1920</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1920-03-13.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Sonntag, 14. März 1920</h1>
+                        <h3 align="center"><a href="entry__1920-03-14.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1920-03-15.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__14">
                      
-                     <p>14/3 S.― Vm. Richard; wegen Dr. Winter;― später Dr. Kaufmann, er 
+                     <p id="p__7">14/3 S.― Vm. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13551">Richard</a></strong>; wegen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_21377">Dr. Winter</a></strong>;― später <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16770">Dr. Kaufmann</a></strong>, er 
                         liest mir neues, versificirtes aus dem Märchen vor ― schön, aber 
                         nicht leicht verständlich.</p>
                      
-                     <p>Dictire Kolap; sie bleibt zu Tisch; hat nachher eine lange 
-                        Unterredung mit O.―</p>
+                     <p id="p__4">Dictire <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_18881">Kolap</a></strong>; sie bleibt zu Tisch; hat nachher eine lange 
+                        Unterredung mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19832">O.</a></strong>―</p>
                      
-                     <p>Ich begleite sie nachher;― sie erzählt mir von den Klagen O.s 
+                     <p id="p__5">Ich begleite sie nachher;― sie erzählt mir von den Klagen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19832">O.s</a></strong> 
                         über mich, meinen Egoismus, meine Quälerei; ― gibt wohl auch 
                         ihren übeln Ton zu,― scheint aber im übrigen einsichtslos und 
                         (hier liegts ja!) gefühllos … ― Mir ist schwer ums Herz … „Ob 
@@ -55,6 +66,96 @@
                         mit sich selbst“ haben.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13551">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Beer-Hofmann Richard <a href="person_13551.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Richard<br></br><small>Nachname</small>: Beer-Hofmann<br></br><small>geboren</small>:  11. 7. 1866<br></br><small>gestorben</small>: 26. 9. 1945
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_21377">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Winter Ludwig <a href="person_21377.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Ludwig<br></br><small>Nachname</small>: Winter<br></br><small>geboren</small>:  27. 4. 1872<br></br><small>gestorben</small>: 3. 9. 1922
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16770">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Kaufmann Arthur <a href="person_16770.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Arthur<br></br><small>Nachname</small>: Kaufmann<br></br><small>geboren</small>:  4. 4. 1872<br></br><small>gestorben</small>: 25. 7. 1938
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_18881">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Pollak Frieda <a href="person_18881.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Frieda<br></br><small>Nachname</small>: Pollak<br></br><small>geboren</small>:  8. 12. 1881<br></br><small>gestorben</small>: 13. 7. 1937
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19832">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schnitzler Olga <a href="person_19832.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Olga<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  17. 1. 1882<br></br><small>gestorben</small>: 13. 1. 1970
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

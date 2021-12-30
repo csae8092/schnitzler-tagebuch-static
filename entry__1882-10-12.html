@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,17 +31,28 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Donnerstag, 12. Oktober 1882</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1882-10-10.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Donnerstag, 12. Oktober 1882</h1>
+                        <h3 align="center"><a href="entry__1882-10-12.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1882-11-02.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__10">
                      
-                     <p>12/10 Donnerstag Mg.― Vorvorgestern K-l-e.―</p>
+                     <p id="p__3">12/10 Donnerstag Mg.― Vorvorgestern <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16874">K-l-e</a></strong>.―</p>
                      
-                     <p>Am Dinstag Abend sprach ich ein Mädchen, namens Charlotte P. an, die 
+                     <p id="p__6">Am Dinstag Abend sprach ich ein Mädchen, namens <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13448">Charlotte P.</a></strong> an, die 
                         mir bereits seit lange auffällt, ohne daß sie mich je interessirt 
                         hätte.― Nun aber, da ich sie kennen gelernt habe, beginnt sie mich zu 
                         fesseln.― Sie ist eine auffallende Schönheit und von merkwürdiger 
@@ -51,12 +62,66 @@
                         Ihre Schwester (vielleicht verständiger als sie … aber im ganzen 
                         Wesen nüchterner und poesieloser, auch weitaus nicht so schön) zu 
                         unterhalten war bis jetzt ― wir verbrachten zwei Abende gemütlich 
-                        spazierengehend miteinander ― mein Collega Julius Rudinger so 
+                        spazierengehend miteinander ― mein Collega <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19453">Julius Rudinger</a></strong> so 
                         liebenswürdig.―</p>
                      
-                     <p>November</p>
+                     <p id="p__3">November</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13448">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Baruch Charlotte <a href="person_13448.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Charlotte<br></br><small>Nachname</small>: Baruch<br></br><small>geboren</small>:  16. 8. 1857<br></br><small>gestorben</small>: 5. 1. 1938
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16874">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">K-l-e <a href="person_16874.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  <br></br><small>Nachname</small>: K-l-e<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19453">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Rudinger Julius <a href="person_19453.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Julius<br></br><small>Nachname</small>: Rudinger<br></br><small>geboren</small>:  13. 9. 1861<br></br><small>gestorben</small>: 7. 10. 1930
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,19 +31,30 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Donnerstag, 13. Mai 1880</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1880-05-11.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Donnerstag, 13. Mai 1880</h1>
+                        <h3 align="center"><a href="entry__1880-05-13.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1880-05-14.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__5">
                      
-                     <p>13/5 Donnerstag Mg.― Eine Stimmung, in der ich über mein philosophiren, 
+                     <p id="p__3">13/5 Donnerstag Mg.― Eine Stimmung, in der ich über mein philosophiren, 
                         studieren lache und nichts von alldem gerechtfertigt finde, als das 
                         pessim. Gesetz, das draus resultirt.― Ein Mädchen zernarrt und zertollt 
                         alle Logik, und mir scheint, dass für die Zeit, in der wir soeben 
-                        waten, der Besitz Fannys Zweck und Ziel genug ist. Scheint, da ich 
+                        waten, der Besitz <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17368">Fannys</a></strong> Zweck und Ziel genug ist. Scheint, da ich 
                         wohl zu allem andern unlustig bin. Wie sich das schon öfter als einmal 
                         zutrug. Viele Personen und Dinge ekeln mich an; manches ist mir 
                         verhasst. Ich selbst komme mir halb lächerlich, halb mitleidenswerth 
@@ -63,10 +74,28 @@
                         Hoffnung mehr haben ― das erste will ich und werd’ ich. Aber bis 
                         dahin?</p>
                      
-                     <p>Eine Fülle von Lebenslust und -kraft ist in mir angesammelt, daß 
+                     <p id="p__2">Eine Fülle von Lebenslust und -kraft ist in mir angesammelt, daß 
                         mir zum zerspringen zu Mut ist ― es rast in mir hin und her.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17368">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Reich Franziska <a href="person_17368.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Franziska<br></br><small>Nachname</small>: Reich<br></br><small>geboren</small>:  15. 5. 1862<br></br><small>gestorben</small>: 25. 8. 1930
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

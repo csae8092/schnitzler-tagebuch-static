@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,23 +31,34 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Freitag, 14. Dezember 1917</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1917-12-13.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Freitag, 14. Dezember 1917</h1>
+                        <h3 align="center"><a href="entry__1917-12-14.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1917-12-15.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__24">
                      
-                     <p>14/12 Dictirt „Sohn“.―</p>
+                     <p id="p__3">14/12 Dictirt „Sohn“.―</p>
                      
-                     <p>Nm. am Nachklang.―</p>
+                     <p id="p__3">Nm. am Nachklang.―</p>
                      
-                     <p>Mit O. (und Lili Landesberger) Volksb., Georg Kaiser, Von Morgens 
+                     <p id="p__9">Mit O. (und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_20543">Lili Landesberger</a></strong>) Volksb., <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16650">Georg Kaiser</a></strong>, Von Morgens 
                         bis Mitternacht.― Begabung zweifellos;― aber innere Kälte und 
-                        Unwahrheit. Pallenberg schlecht.―</p>
+                        Unwahrheit. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_18643">Pallenberg</a></strong> schlecht.―</p>
                      
-                     <p>Begann zu lesen Thackeray, Esmond.</p>
+                     <p id="p__6">Begann zu lesen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_20685">Thackeray</a></strong>, Esmond.</p>
                      
                      
                      98
@@ -56,10 +67,100 @@
                      
                      
                      
-                     <p>Storm’sche Novellen; die ersten … Natur- und primitive Seelenstimmungen;― 
+                     <p id="p__9"><strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_20463">Storm’sche</a></strong> Novellen; die ersten … Natur- und primitive Seelenstimmungen;― 
                         Gestaltung seh ich nirgends.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16650">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Kaiser Georg <a href="person_16650.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Georg<br></br><small>Nachname</small>: Kaiser<br></br><small>geboren</small>:  25. 11. 1878<br></br><small>gestorben</small>: 4. 6. 1945
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_18643">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Pallenberg Max <a href="person_18643.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Max<br></br><small>Nachname</small>: Pallenberg<br></br><small>geboren</small>:  18. 12. 1877<br></br><small>gestorben</small>: 26. 6. 1934
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_20463">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Storm Theodor <a href="person_20463.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Theodor<br></br><small>Nachname</small>: Storm<br></br><small>geboren</small>:  14. 9. 1817<br></br><small>gestorben</small>: 4. 7. 1888
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_20543">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Landesberger Elisabeth von <a href="person_20543.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Elisabeth von<br></br><small>Nachname</small>: Landesberger<br></br><small>geboren</small>:  12. 12. 1895<br></br><small>gestorben</small>: 21. 2. 1920
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_20685">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Thackeray William Makepeace <a href="person_20685.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  William Makepeace<br></br><small>Nachname</small>: Thackeray<br></br><small>geboren</small>:  18. 7. 1811<br></br><small>gestorben</small>: 24. 12. 1863
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,20 +31,31 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Sonntag, 19. Mai 1907</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1907-05-18.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Sonntag, 19. Mai 1907</h1>
+                        <h3 align="center"><a href="entry__1907-05-19.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1907-05-20.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__19">
                      
-                     <p>19/5 Pfingstsonntag.― Eher etwas befreit aufgewacht, da ich das Stück los 
-                        bin; freilich von den äußeren Schwierigkeiten bedrückt.― Mit Richard in 
-                        Nebel und Regen spazieren in Sievring. Über Unsterblichkeit, Judentum, 
-                        Hugo, Salten etc.―</p>
+                     <p id="p__7">19/5 Pfingstsonntag.― Eher etwas befreit aufgewacht, da ich das Stück los 
+                        bin; freilich von den äußeren Schwierigkeiten bedrückt.― Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13551">Richard</a></strong> in 
+                        Nebel und Regen spazieren in <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_3b0cf80ce6f7c6e0340cf31265c8f3f7">Sievring</a></strong>. Über Unsterblichkeit, Judentum, 
+                        <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16293">Hugo</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19542">Salten</a></strong> etc.―</p>
                      
-                     <p>Nm. in Plänen gestöbert, ohne erfolgversprechendes zu finden. Mit O. 
+                     <p id="p__9">Nm. in Plänen gestöbert, ohne erfolgversprechendes zu finden. Mit O. 
                         über das Stück in reinern Linien (eine Fassung ohne Treuenhof). Einfall, 
                         einige Figuren (Rapp, Gleissner?) episodisch in den Roman zu bringen. Alle 
                         Erwägungen beirrt und erniedrigt durch die Geldfrage.― Es scheint 
@@ -54,10 +65,85 @@
                         eine falsche Lust ― geboren aus dem Aerger, dass ich es sozusagen nicht 
                         „darf“.― „Unbeirrtheit, ihr ewigen Götter“!―</p>
                      
-                     <p>― Der „todte Gabriel“ in der Pfingstn. der N. Pr. erschienen. Die andern 
+                     <p id="p__5">― Der „todte Gabriel“ in der Pfingstn. der N. Pr. erschienen. Die andern 
                         Beiträge sind beinah noch unbedeutender.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13551">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Beer-Hofmann Richard <a href="person_13551.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Richard<br></br><small>Nachname</small>: Beer-Hofmann<br></br><small>geboren</small>:  11. 7. 1866<br></br><small>gestorben</small>: 26. 9. 1945
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19542">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Salten Felix <a href="person_19542.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Felix<br></br><small>Nachname</small>: Salten<br></br><small>geboren</small>:  6. 9. 1869<br></br><small>gestorben</small>: 8. 10. 1945
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16293">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Hofmannsthal Hugo von <a href="person_16293.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Hugo von<br></br><small>Nachname</small>: Hofmannsthal<br></br><small>geboren</small>:  1. 2. 1874<br></br><small>gestorben</small>: 15. 7. 1929
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_3b0cf80ce6f7c6e0340cf31265c8f3f7">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Sievering <a href="place_3b0cf80ce6f7c6e0340cf31265c8f3f7.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2600996/">http://www.geonames.org/2600996/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 48.25 16.33333
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

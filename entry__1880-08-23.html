@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,33 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Montag, 23. August 1880</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1880-08-19.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Montag, 23. August 1880</h1>
+                        <h3 align="center"><a href="entry__1880-08-23.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1880-08-25.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__14">
                      
-                     <p>23/8 Montag früh.― Mit Jacques war ich beim Volksfest.- Der Koth 
+                     <p id="p__4">23/8 Montag früh.― Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_18766">Jacques</a></strong> war ich beim Volksfest.- Der Koth 
                         und die Loyalität machten die Passage schwer … Was ich dieser Tage 
                         in einem kurzen Essay über den Patriotismus niedergelegt habe, 
                         kommt mir von Herzen.―</p>
                      
-                     <p>Ich dachte viel an Fany und Gemeinheiten ekelten mich.</p>
+                     <p id="p__3">Ich dachte viel an <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17368">Fany</a></strong> und Gemeinheiten ekelten mich.</p>
                      
-                     <p>Ich möchte eine Schilderung der Volksbegeisterung bei so ’nem 
+                     <p id="p__7">Ich möchte eine Schilderung der Volksbegeisterung bei so ’nem 
                         Fest entwerfen, die in ein Drama passte, in dem Regierung und Volk 
                         nicht gut weg kämen. Mein aesthetisches Gefühl wird ganz besonders 
                         durch gewisse Dinge beleidigt. Wenn z. B. ein Besoffener, der 
@@ -62,16 +73,70 @@
                         80 1880: VIII 23 - VIII 27
                         besteht u. zw. nicht des Geistes, sondern der Bestie in uns.</p>
                      
-                     <p>Wahrhaftig, ein guter Spass, ein Funke frischen Uebermutes hätte 
+                     <p id="p__4">Wahrhaftig, ein guter Spass, ein Funke frischen Uebermutes hätte 
                         mich mit allem versöhnt ― aber so!</p>
                      
-                     <p>― „Das Volk ist frei, seht an wie wohls ihm geht.“ ― Die Begeisterung 
+                     <p id="p__5">― „Das Volk ist frei, seht an wie wohls ihm geht.“ ― Die Begeisterung 
                         war so täppisch, kam mindestens so zum Ausdruck ― nichts als die 
                         Volkshymne ― und „o du mein Oesterreich ―“. Gibts denn nichts 
                         verehrungswürdiges außer das Land, welches die Ehre hatte, uns zu 
                         erzeugen? Das ist Beschränktheit.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_15150">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Franz Joseph I. von Österreich-Ungarn <a href="person_15150.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  <br></br><small>Nachname</small>: Franz Joseph I. von Österreich-Ungarn<br></br><small>geboren</small>:  18. 8. 1830<br></br><small>gestorben</small>: 21. 11. 1916
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_17368">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Reich Franziska <a href="person_17368.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Franziska<br></br><small>Nachname</small>: Reich<br></br><small>geboren</small>:  15. 5. 1862<br></br><small>gestorben</small>: 25. 8. 1930
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_18766">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Pichler Jacques <a href="person_18766.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Jacques<br></br><small>Nachname</small>: Pichler<br></br><small>geboren</small>:  18. 4. 1862<br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

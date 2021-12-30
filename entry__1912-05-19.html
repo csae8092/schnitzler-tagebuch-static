@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,21 +31,111 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Sonntag, 19. Mai 1912</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1912-05-18.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Sonntag, 19. Mai 1912</h1>
+                        <h3 align="center"><a href="entry__1912-05-19.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1912-05-20.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__12">
                      
-                     <p>19/5 S. Venedig. Mit Kaufmann Gondelfahrt. Sebastiano.―</p>
+                     <p id="p__4">19/5 S. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_e4d4b19346747823e5636ed1238a7521">Venedig</a></strong>. Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16770">Kaufmann</a></strong> Gondelfahrt. Sebastiano.―</p>
                      
-                     <p>Nm. mit Schmutzers und Kaufmann im armenischen Kloster.</p>
+                     <p id="p__5">Nm. mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19784">Schmutzers</a></strong> und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16770">Kaufmann</a></strong> im <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_567af1b4248b20b8775c2ef9d90b0299">armenischen</a></strong> Kloster.</p>
                      
-                     <p>Bei Bauer mit denselben genachtmahlt; Markusplatz, Chor.―</p>
+                     <p id="p__5">Bei Bauer mit denselben genachtmahlt; <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_5daafd9ad08609ff9ff5204b4ca5bf01">Markusplatz</a></strong>, Chor.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19784">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schmutzer Ferdinand <a href="person_19784.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Ferdinand<br></br><small>Nachname</small>: Schmutzer<br></br><small>geboren</small>:  21. 5. 1870<br></br><small>gestorben</small>: 26. 10. 1928
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_16770">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Kaufmann Arthur <a href="person_16770.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Arthur<br></br><small>Nachname</small>: Kaufmann<br></br><small>geboren</small>:  4. 4. 1872<br></br><small>gestorben</small>: 25. 7. 1938
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_e4d4b19346747823e5636ed1238a7521">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Venedig <a href="place_e4d4b19346747823e5636ed1238a7521.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3164603/">http://www.geonames.org/3164603/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 45.43713 12.33265
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_5daafd9ad08609ff9ff5204b4ca5bf01">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Markusplatz <a href="place_5daafd9ad08609ff9ff5204b4ca5bf01.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                           <li>Markusplatz</li>
+                           <li>Piazza San Marco</li>
+                        </ul><br></br><small>Koordinaten:</small> 45.434172 12.338433
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

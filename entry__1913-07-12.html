@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,51 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Samstag, 12. Juli 1913</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1913-07-11.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Samstag, 12. Juli 1913</h1>
+                        <h3 align="center"><a href="entry__1913-07-12.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1913-07-13.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__8">
                      
-                     <p>12/7 Regen. Mit O. Stadt. Perlen angesehn.―</p>
+                     <p id="p__2">12/7 Regen. Mit O. Stadt. Perlen angesehn.―</p>
                      
-                     <p>Nm. an der Novelle.―</p>
+                     <p id="p__3">Nm. an der Novelle.―</p>
                      
-                     <p>Im Kino. So nervös, dass eine kitschige Abschiedszene mich weinen macht. 
-                        Bürger Briefe ausgelesen.―</p>
+                     <p id="p__5">Im Kino. So nervös, dass eine kitschige Abschiedszene mich weinen macht. 
+                        <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14053">Bürger</a></strong> Briefe ausgelesen.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14053">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Bürger Gottfried August <a href="person_14053.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Gottfried August<br></br><small>Nachname</small>: Bürger<br></br><small>geboren</small>:  31. 12. 1747<br></br><small>gestorben</small>: 8. 6. 1794
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

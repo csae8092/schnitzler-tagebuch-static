@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,90 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Samstag, 3. August 1918</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1918-08-02.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Samstag, 3. August 1918</h1>
+                        <h3 align="center"><a href="entry__1918-08-03.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1918-08-04.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__12">
                      
-                     <p>3/8 Vm. Briefe, Ordnen; Notizen zum „Sohn“.―</p>
+                     <p id="p__3">3/8 Vm. Briefe, Ordnen; Notizen zum „Sohn“.―</p>
                      
-                     <p>Nm. am „Nachklang“.</p>
+                     <p id="p__3">Nm. am „Nachklang“.</p>
                      
-                     <p>Mit Specht und Bittners Pötzleinsdorf Strasser genachtm. 
-                        Altwienerische Erinnerungen mit Bittner: Gasthausgarten, Tanzschulen.―</p>
+                     <p id="p__8">Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_20238">Specht</a></strong> und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13754">Bittners</a></strong> <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</a></strong> Strasser genachtm. 
+                        Altwienerische Erinnerungen mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13754">Bittner</a></strong>: Gasthausgarten, Tanzschulen.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13754">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Bittner Julius <a href="person_13754.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Julius<br></br><small>Nachname</small>: Bittner<br></br><small>geboren</small>:  9. 4. 1874<br></br><small>gestorben</small>: 9. 1. 1939
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_20238">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Specht Richard <a href="person_20238.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Richard<br></br><small>Nachname</small>: Specht<br></br><small>geboren</small>:  7. 12. 1870<br></br><small>gestorben</small>: 18. 3. 1932
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_82109b1e661086ac882d02fa24e8b774">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Pötzleinsdorf <a href="place_82109b1e661086ac882d02fa24e8b774.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2768462/">http://www.geonames.org/2768462/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 48.24354 16.3062
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

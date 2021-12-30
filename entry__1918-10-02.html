@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,24 +31,113 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Mittwoch, 2. Oktober 1918</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1918-10-01.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Mittwoch, 2. Oktober 1918</h1>
+                        <h3 align="center"><a href="entry__1918-10-02.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1918-10-03.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__13">
                      
-                     <p>2/10 Dictirt (Steuersache, autob.) ―</p>
+                     <p id="p__3">2/10 Dictirt (Steuersache, autob.) ―</p>
                      
-                     <p>Briefe sortirt, um einiges zu vertilgen.</p>
+                     <p id="p__2">Briefe sortirt, um einiges zu vertilgen.</p>
                      
-                     <p>Dr. Reik. Urlaub. Sanit.-Ltnt. War im Spital Feltre, während des 
-                        Luftangriffs.― Vom psychoan. Congress in Budapest.― Persönlichkeit 
-                        Freuds. Reiks größtes Erlebnis. Er ist eine Art Secretair bei ihm. 
+                     <p id="p__10"><strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19135">Dr. Reik</a></strong>. Urlaub. Sanit.-Ltnt. War im Spital <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_9263526b6b07a4e038fef1dd4b691224">Feltre</a></strong>, während des 
+                        Luftangriffs.― Vom psychoan. Congress in <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_9fed5dae86e3030d9be3740efa198659">Budapest</a></strong>.― Persönlichkeit 
+                        <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_15172">Freuds</a></strong>. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19135">Reiks</a></strong> größtes Erlebnis. Er ist eine Art Secretair bei ihm. 
                         ― Übers „Weite Land“. Über „Kritik“.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_15172">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Freud Sigmund <a href="person_15172.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Sigmund<br></br><small>Nachname</small>: Freud<br></br><small>geboren</small>:  6. 5. 1856<br></br><small>gestorben</small>: 23. 9. 1939
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19135">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Reik Theodor <a href="person_19135.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Theodor<br></br><small>Nachname</small>: Reik<br></br><small>geboren</small>:  12. 5. 1888<br></br><small>gestorben</small>: 31. 12. 1969
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_9263526b6b07a4e038fef1dd4b691224">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Feltre <a href="place_9263526b6b07a4e038fef1dd4b691224.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3177120/">http://www.geonames.org/3177120/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 46.02085 11.90031
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_9fed5dae86e3030d9be3740efa198659">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Budapest <a href="place_9fed5dae86e3030d9be3740efa198659.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/3054643/">http://www.geonames.org/3054643/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 47.49801 19.03991
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,93 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Dienstag, 12. Jänner 1915</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1915-01-11.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Dienstag, 12. Jänner 1915</h1>
+                        <h3 align="center"><a href="entry__1915-01-12.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1915-01-13.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__11">
                      
-                     <p>12/1 Besorgungen.― Panorama. (Unsre Soldaten auf dem Weg nach Rußland.) ―</p>
+                     <p id="p__3">12/1 Besorgungen.― Panorama. (Unsre Soldaten auf dem Weg nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_65f7b8e17e93bc2a87843d99e82c08a5">Rußland</a></strong>.) ―</p>
                      
-                     <p>Nm. an „Wahnsinn“.</p>
+                     <p id="p__3">Nm. an „Wahnsinn“.</p>
                      
-                     <p>Ernst Hardt; erzählt mir u. a. wie er zu Anfang des Kriegs bei Stuttgart 
+                     <p id="p__7"><strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_15922">Ernst Hardt</a></strong>; erzählt mir u. a. wie er zu Anfang des Kriegs bei <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_a330ac6c48198545d4d2f9ff2cb0fc05">Stuttgart</a></strong> 
                         fast als Spion verhaftet worden.― Sein neues Stück: König Salomo.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_15922">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Hardt Ernst <a href="person_15922.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Ernst<br></br><small>Nachname</small>: Hardt<br></br><small>geboren</small>:  9. 5. 1876<br></br><small>gestorben</small>: 3. 1. 1947
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_65f7b8e17e93bc2a87843d99e82c08a5">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Russland <a href="place_65f7b8e17e93bc2a87843d99e82c08a5.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2017370/">http://www.geonames.org/2017370/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 60 100
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_a330ac6c48198545d4d2f9ff2cb0fc05">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Stuttgart <a href="place_a330ac6c48198545d4d2f9ff2cb0fc05.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2825297/">http://www.geonames.org/2825297/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 48.78232 9.17702
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

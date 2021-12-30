@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,22 +31,33 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Donnerstag, 11. Juli 1918</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1918-07-10.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Donnerstag, 11. Juli 1918</h1>
+                        <h3 align="center"><a href="entry__1918-07-11.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1918-07-12.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__18">
                      
-                     <p>11/7 Vm. Michaelerberg. Ein paar Verse zum Weiher. Da mir die Verse ganz 
+                     <p id="p__4">11/7 Vm. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_bf303a935ba7bb30e892cb5d0f2ea6ac">Michaelerberg</a></strong>. Ein paar Verse zum Weiher. Da mir die Verse ganz 
                         besondre Mühe machen und meine Verse doch nie ersten Ranges sein werden, 
                         frag ich mich, ob ich das ganze doch nicht lieber in Prosa schreiben sollte. 
                         Aber ich fürchte Banalisirung. Am Ende ist es auch nur Trägheit.―</p>
                      
-                     <p>Nm. am Nachkl.,― am Weiher.</p>
+                     <p id="p__4">Nm. am Nachkl.,― am Weiher.</p>
                      
-                     <p>Spazierg. Windmühlhöhe mit O. und Heini.</p>
+                     <p id="p__4">Spazierg. Windmühlhöhe mit O. und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19822">Heini</a></strong>.</p>
                      
                      
                      
@@ -55,9 +66,66 @@
                      161
                      
                      
-                     <p>Las Eidlitz, Hyperion, vom Dichter übersandt. Begabt, allzu skizzenhaft.</p>
+                     <p id="p__8">Las <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14668">Eidlitz</a></strong>, Hyperion, vom Dichter übersandt. Begabt, allzu skizzenhaft.</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14668">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Eidlitz Walther <a href="person_14668.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Walther<br></br><small>Nachname</small>: Eidlitz<br></br><small>geboren</small>:  28. 8. 1892<br></br><small>gestorben</small>: 28. 8. 1976
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_19822">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Schnitzler Heinrich <a href="person_19822.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Heinrich<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  9. 8. 1902<br></br><small>gestorben</small>: 12. 7. 1982
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="place_bf303a935ba7bb30e892cb5d0f2ea6ac">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Michaelerberg <a href="place_bf303a935ba7bb30e892cb5d0f2ea6ac.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Normdaten IDs</small><ul>
+                           <li><small>geonames:</small> <a href="http://www.geonames.org/2600997/">http://www.geonames.org/2600997/</a></li>
+                        </ul><br></br><small>Koordinaten:</small> 48.24523 16.28916
+                        <hr></hr>
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

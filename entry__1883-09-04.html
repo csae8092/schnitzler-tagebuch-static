@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,16 +31,27 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
+            <div class="card" data-index="true">
                <div class="card-header">
-                  <h1>Dienstag, 4. September 1883</h1>
+                  <div class="row">
+                     <div class="col-md-2">
+                        <h1><a href="entry__1883-09-02.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                     </div>
+                     <div class="col-md-8">
+                        <h1 align="center">Dienstag, 4. September 1883</h1>
+                        <h3 align="center"><a href="entry__1883-09-04.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
+                     </div>
+                     <div class="col-md-2" style="text-align:right">
+                        <h1><a href="entry__1883-09-10.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                     </div>
+                  </div>
                </div>
                <div class="card-body">
                   
-                  <div>
+                  <div id="div__15">
                      
-                     <p>4/9 Dinstag… Und diese Partie war ja doch nicht ohne Reiz. Nur die 
-                        Person dieses Wilhelm stört mich. Dieses Pärchen Wilhelm ― Minna 
+                     <p id="p__14">4/9 Dinstag… Und diese Partie war ja doch nicht ohne Reiz. Nur die 
+                        Person dieses <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_18600">Wilhelm</a></strong> stört mich. Dieses Pärchen <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_18600">Wilhelm</a></strong> ― <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14898">Minna</a></strong> 
                         ― in so prosaisch fast lächerlichem Gegensatz zu mir und Toni ― Denn 
                         ich muss gestehen, trotz vollkommenstem Realismus lieb ich einen 
                         gewissen Hauch von Phantasie über mein Verhältnis mit Toni gebreitet 
@@ -51,7 +62,7 @@
                         158 1883: IX 4 - IX 15
                         wärmsten, ganz seelenvoll innige Liebesgeständnisse und vollkommen ohne 
                         das Bewußtsein, dass ich eigentlich doch ― lüge!― Wenn nur 
-                        Minna einen andern Partner hätte ― sie verdient einen andern, wenn 
+                        <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_14898">Minna</a></strong> einen andern Partner hätte ― sie verdient einen andern, wenn 
                         sie’s auch vielleicht selbst kaum weiss. Aber man darfs ja da so genau 
                         nicht nehmen, sintemalen der Zufall ein so gewichtig Wort dreinspricht 
                         und die sonderbaren Launen der Weiber.― Wenn ichs so recht 
@@ -63,6 +74,60 @@
                         bestimmt, und läßt sichs genügen.―</p>
                      </div>
                   </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14895">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Faust Antonie <a href="person_14895.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Antonie<br></br><small>Nachname</small>: Faust<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_18600">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Ostersetzer Wilhelm <a href="person_18600.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Wilhelm<br></br><small>Nachname</small>: Ostersetzer<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14898">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Faust Minna <a href="person_14898.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Minna<br></br><small>Nachname</small>: Faust<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full">

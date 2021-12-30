@@ -9,9 +9,10 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
+    <xsl:import href="./partials/person.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='label'][1]/text()"/>
+            <xsl:value-of select="'Personen'"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -93,15 +94,7 @@
                                             <xsl:value-of select="$name"/>
                                         </h1>
                                     </div>
-                                    <div class="card-body">
-                                        <small>Vorname</small>:  <xsl:value-of select=".//tei:forename/text()"/>
-                                        <br />
-                                        <small>Nachname</small>: <xsl:value-of select=".//tei:surname/text()"/>
-                                        <br />
-                                        <small>geboren</small>:  <xsl:value-of select=".//tei:birth/tei:date/text()"/>
-                                        <br />
-                                        <small>gestorben</small>: <xsl:value-of select=".//tei:death/tei:date/text()"/>
-                                    </div>
+                                    <xsl:call-template name="person_detail"/>
                                 </div>
                             </div>
                             

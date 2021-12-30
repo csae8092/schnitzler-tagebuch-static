@@ -7,4 +7,5 @@
     <xsl:param name="github_url">https://github.com/csae8092/schnitzler-tagebuch-static</xsl:param>
     <xsl:param name="html_title">Schnitzler Tagebuch</xsl:param>
     <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
+    <xsl:param name="base_url">https://schnitzler-tagebuch.acdh.oeaw.ac.at</xsl:param>
 </xsl:stylesheet>

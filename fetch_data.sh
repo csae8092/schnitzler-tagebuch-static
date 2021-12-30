@@ -8,3 +8,6 @@ mv schnitzler-tagebuch-data-master ./data
 rm master.zip
 echo "create calendar data"
 python make_calendar_data.py
+
+echo "denormalize indices"
+schnitzler
